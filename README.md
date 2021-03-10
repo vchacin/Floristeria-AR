@@ -1,6 +1,6 @@
 # Floristeria-AR
 
-## Hola! 👋
+## ¡Hola! 👋
 
 Gracias por interesarte en nuestro proyecto :)  Este constituye el Sprint final de la Formación de 300 horas de Frontend en Factoria F5 Febrero - Marzo 2021. 
 
