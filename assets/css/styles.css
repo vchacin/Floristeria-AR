@@ -1,9 +1,5 @@
-header {
+@import url('header.css');
 
-}
+body {
 
-.square {
-    position: static;
-    top: 0;
-    left: 50%;
 }
