@@ -1,0 +1,45 @@
+.contenedor-img {
+    background-color: aqua;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.planta {
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor-img-planta {
+    background-color: green;
+    width: 90%;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.elipse {
+    height: 20px;
+    width: 70%;
+}
+
+.contenedor-img-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.swipe-left {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.swipe-right {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
