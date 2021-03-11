@@ -1,6 +1,10 @@
 @import url('http://fonts.cdnfonts.com/css/bhavuka');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 @import url('components/header.css');
+@import url('components/footer.css');
+@import url('components/contenedor-info.css');
+@import url('components/contenedor-planta.css');
+@import url('components/responsive.css');
 
 body {
     margin: 0;
