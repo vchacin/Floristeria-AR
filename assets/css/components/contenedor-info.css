@@ -1,0 +1,59 @@
+.contenedor-amarillo {
+    height: 511px;
+    width: 360px;
+    background-color: #E3C065;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px; 
+    z-index: -4;
+    position: relative;
+    bottom: 400px;
+}
+    
+.resplandor {
+    height: 0;
+    width: 0;
+}
+
+.info-planta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.subtitulo-planta {
+    color: white;
+    font-weight:100;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-planta {
+    color: #385C0A;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.precio-planta {
+    color: #385C0A;
+    font-weight: 900;
+    font-size: 55px;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    width: 40px;
+    border: 3px #7E9357 solid;
+    margin-top: 1px;
+    margin-right: 143px;
+        
+  }
+
+.paragrafo-planta {
+    color: #385C0A;
+    font-size: 21px;
+    font-weight: 300;
+    text-align:center;
+}
