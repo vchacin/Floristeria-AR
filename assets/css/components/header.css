@@ -1,0 +1,15 @@
+.square {
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+}
+
+header img {
+    max-width: 75%;
+}
+
+.square {
+    position: static;
+    top: 0;
+    left: 50%;
+}
