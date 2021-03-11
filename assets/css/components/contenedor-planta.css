@@ -1,5 +1,5 @@
-.contenedor-img {
-    background-color: aqua;
+main .contenedor-img {
+    
     position: relative;
     width: 100%;
     height: auto;
@@ -8,22 +8,51 @@
     justify-content: center;
 }
 
-.planta {
-    width: 200px;
-    height: 200px;
-}
-
 .contenedor-img-planta {
     background-color: green;
-    width: 90%;
+    width: 80%;
     height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
 }
 
-.elipse {
-    height: 20px;
-    width: 70%;
+.contenedor-img-planta img.planta {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-img-planta div.contenedor-elipses{
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: red;
+}
+
+.contenedor-elipses div.elipse {
+    height: 40px;
+    border-radius: 60%;
+    width: 50%;
+    background-color: #FDF8E5;
+    position: relative;
+    z-index: 2;
+}
+
+.contenedor-elipses div.elipse-altura {
+    height: 45px;
+    border-radius: 60%;
+    width: 50%;
+    background-color: #E8D09B;
+    position: relative;
+    top: -38px;
 }
 
 .contenedor-img-nav {
@@ -32,14 +61,25 @@
     justify-content: space-between;
 }
 
-.swipe-left {
-    background-color: red;
-    width: 100px;
-    height: 100px;
+.contenedor-img-nav {
+    position: absolute;
+    top: 20vh;
 }
 
-.swipe-right {
+.contenedor-img-nav nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.swipe {
     background-color: red;
-    width: 100px;
-    height: 100px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
 }

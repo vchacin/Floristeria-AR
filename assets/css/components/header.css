@@ -1,6 +1,7 @@
 header {
     position: absolute;
     width: 100%;
+    z-index: 1;
 }
 
 header div {
@@ -23,7 +24,7 @@ h1 {
 .square {
     width: 23vw;
     height: 23vw;
-    background-color: #f7f5edde;
+    background-color: rgba(247, 245, 237, 0.808);
     position: absolute;
     top: 0;
     z-index: -1;
