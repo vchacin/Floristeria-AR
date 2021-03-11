@@ -8,12 +8,14 @@
 
 body {
     margin: 0;
+    
     font-family: "Roboto Condensed", sans-serif;
 }
 
 div.background {
     height: 100vh;
-    background-color: #fcf5edaf;
+    width: 100vw;
+    background-image: radial-gradient(63.6% 63.6% at 54.03% 45.84%, rgba(235, 230, 214, 0.952) 56.77%, rgba(230, 216, 168, 0.952) 100%);
     z-index: -99;
 }
 
