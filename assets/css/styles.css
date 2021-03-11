@@ -1,1 +1,25 @@
+@import url('http://fonts.cdnfonts.com/css/bhavuka');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 @import url('components/header.css');
+
+body {
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background: radial-gradient(63.6% 63.6% at 54.03% 45.84%, rgba(233, 211, 118, 0) 56.77%, rgba(245, 203, 51, 0.44) 100%);
+}
+
+div.background {
+    
+}
+
+.bg-image {
+    position: fixed;
+    width: 100%;
+}
+
+main div {
+    height: 30vh;
+    width: 100%; 
+}
