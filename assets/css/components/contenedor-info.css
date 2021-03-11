@@ -4,7 +4,7 @@
     background-color: #E3C065;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px; 
-    z-index: -4;
+    z-index: 2;
     position: relative;
     bottom: 400px;
 }
@@ -18,7 +18,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    position: relative;
+    z-index: 4;
 }
 
 .subtitulo-planta {
@@ -38,9 +39,10 @@
 .precio-planta {
     color: #385C0A;
     font-weight: 900;
-    font-size: 55px;
+    font-size: 15vw;
     margin: 0;
     padding: 0;
+    
 }
 
 hr {
@@ -53,7 +55,32 @@ hr {
 
 .paragrafo-planta {
     color: #385C0A;
-    font-size: 21px;
+    font-size: 4vw;
     font-weight: 300;
-    text-align:center;
+    text-align: center;
+}
+
+.camara-icon, .corazon-icon {
+    height: 13vw;
+    width: 13vw;
+    border-radius: 50px;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid 0.5vw white;
+    position: absolute;
+}
+
+.corazon-icon {
+    right: 20%;
+    top: 20%;
+}
+
+.camara-icon {
+    right: 20%;
+    top: 45%;
+} 
+
+.contenedor-planta {
+    position: relative;
+    z-index: 4
 }
