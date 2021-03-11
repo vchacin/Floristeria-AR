@@ -1,7 +1,6 @@
 main .contenedor-img {
-    
     position: relative;
-    width: 100%;
+    width: 200px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -20,11 +19,12 @@ main .contenedor-img {
 }
 
 .contenedor-img-planta img.planta {
-    width: 200px;
+    width: 100px;
     height: 200px;
-    background-color: yellow;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    z-index: 5;
 }
 
 .contenedor-img-planta div.contenedor-elipses{
@@ -34,25 +34,29 @@ main .contenedor-img {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: red;
+    top: -18px;
 }
 
 .contenedor-elipses div.elipse {
-    height: 40px;
+    height: 20px;
     border-radius: 60%;
     width: 50%;
     background-color: #FDF8E5;
     position: relative;
     z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contenedor-elipses div.elipse-altura {
-    height: 45px;
+    height: 25px;
     border-radius: 60%;
     width: 50%;
     background-color: #E8D09B;
     position: relative;
-    top: -38px;
+    top: -20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contenedor-img-nav {
@@ -73,9 +77,11 @@ main .contenedor-img {
 }
 
 .swipe {
-    background-color: red;
-    width: 40px;
-    height: 40px;
+    background-color: #C1CDAA;
+    color: #fff;
+    width: 15px;
+    padding: 15px;
+    height: 0;
     border-radius: 50%;
     display: flex;
     justify-content: center;
