@@ -6,6 +6,7 @@ footer {
     height: auto;
     padding: 0px;
     margin: 0px;
+    background-color: transparent;
 }
 
 .linea-verde {
@@ -16,7 +17,7 @@ footer {
 .shopping-cart {
     width: 93px;
     height: 51px;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 30px;
     border: none;
     background-color:  #7E9357;
     cursor: pointer;
