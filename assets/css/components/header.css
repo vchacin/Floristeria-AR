@@ -1,5 +1,5 @@
 header {
-    position: absolute;
+    position: relative;
     width: 100%;
     z-index: 1;
     color: #527C1E;
@@ -15,23 +15,22 @@ header div {
 
 header div h1 {
     font-family: 'Beth Ellen', cursive;
-    font-size: 5vw;
-    margin: 6vw 0 0 0;
+    font-size: 6vw;
+    margin: 4vw 0 -3.5vh 0;
 }
 
 header div h1 img {
-    width: 6vw;
+    width: 7vw;
     margin: 0 0 0 -2px;
 }
 
 header div h2 {
-    font-size: 4vw;
+    font-size: 5vw;
     font-family: "bhavuka", sans-serif;
-    margin-top: -2px;
 }
 
 header div div.square {
-    width: 23vw;
+    width: 20vw;
     height: 23vw;
     background-color: rgba(247, 245, 237, 0.808);
     position: absolute;

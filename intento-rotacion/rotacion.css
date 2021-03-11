@@ -32,36 +32,37 @@ button img {
 }
 
 .product-list .product-plant:nth-child(1) {
-    -webkit-transform: rotate(0deg) translate(25em) rotate(0deg);
-    transform: rotate(0deg) translate(25em) rotate(0deg);
+  -webkit-transform: rotate(0deg) translate(25em) rotate(0deg);
+  transform: rotate(0deg) translate(25em) rotate(0deg);
 }
 
 .product-list .product-plant:nth-child(2) {
-    -webkit-transform: rotate(45deg) translate(25em) rotate(-45deg);
-    transform: rotate(45deg) translate(25em) rotate(-45deg);
+  -webkit-transform: rotate(45deg) translate(25em) rotate(-45deg);
+  transform: rotate(45deg) translate(25em) rotate(-45deg);
 }
 
 .product-list .product-plant:nth-child(3) {
-    -webkit-transform: rotate(90deg) translate(25em) rotate(-90deg);
-    transform: rotate(90deg) translate(25em) rotate(-90deg);
-  }
-  .product-list .product-plant:nth-child(4) {
-    -webkit-transform: rotate(135deg) translate(25em) rotate(-135deg);
-    transform: rotate(135deg) translate(25em) rotate(-135deg);
-  }
-  .product-list .product-plant:nth-child(5) {
-    -webkit-transform: rotate(180deg) translate(25em) rotate(-180deg);
-    transform: rotate(180deg) translate(25em) rotate(-180deg);
-  }
-  .product-list .product-plant:nth-child(6) {
-    -webkit-transform: rotate(225deg) translate(25em) rotate(-225deg);
-    transform: rotate(225deg) translate(25em) rotate(-225deg);
-  }
-  .product-list .product-plant:nth-child(7) {
-    -webkit-transform: rotate(270deg) translate(25em) rotate(-270deg);
-    transform: rotate(270deg) translate(25em) rotate(-270deg);
-  }
-  .product-list .product-plant:nth-child(8) {
-    -webkit-transform: rotate(315deg) translate(25em) rotate(-315deg);
-    transform: rotate(315deg) translate(25em) rotate(-315deg);
-  }
+  -webkit-transform: rotate(90deg) translate(25em) rotate(-90deg);
+  transform: rotate(90deg) translate(25em) rotate(-90deg);
+}
+
+.product-list .product-plant:nth-child(4) {
+  -webkit-transform: rotate(135deg) translate(25em) rotate(-135deg);
+  transform: rotate(135deg) translate(25em) rotate(-135deg);
+}
+.product-list .product-plant:nth-child(5) {
+  -webkit-transform: rotate(180deg) translate(25em) rotate(-180deg);
+  transform: rotate(180deg) translate(25em) rotate(-180deg);
+}
+.product-list .product-plant:nth-child(6) {
+  -webkit-transform: rotate(225deg) translate(25em) rotate(-225deg);
+  transform: rotate(225deg) translate(25em) rotate(-225deg);
+}
+.product-list .product-plant:nth-child(7) {
+  -webkit-transform: rotate(270deg) translate(25em) rotate(-270deg);
+  transform: rotate(270deg) translate(25em) rotate(-270deg);
+}
+.product-list .product-plant:nth-child(8) {
+  -webkit-transform: rotate(315deg) translate(25em) rotate(-315deg);
+  transform: rotate(315deg) translate(25em) rotate(-315deg);
+}
