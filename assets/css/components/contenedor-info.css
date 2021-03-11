@@ -4,7 +4,7 @@
     background-color: #E3C065;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px; 
-    z-index: -4;
+    z-index: -1;
     position: relative;
     bottom: 400px;
 }
@@ -18,8 +18,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  border-radius: 45px;
-    width: 340px;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 45%);
+    box-shadow: inset -1px -30px 40px -10px white;
+    border-radius: 30px;
+    width: 300px;
     height: 250px;
     position: relative;
     right: -30px;
@@ -42,9 +44,10 @@
 .precio-planta {
     color: #385C0A;
     font-weight: 900;
-    font-size: 55px;
+    font-size: 15vw;
     margin: 0;
     padding: 0;
+    
 }
 
 hr {
@@ -57,7 +60,32 @@ hr {
 
 .paragrafo-planta {
     color: #385C0A;
-    font-size: 15px;
+    font-size: 4vw;
     font-weight: 300;
-    text-align:center;
+    text-align: center;
+}
+
+.camara-icon, .corazon-icon {
+    height: 13vw;
+    width: 13vw;
+    border-radius: 50px;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid 0.5vw white;
+    position: absolute;
+}
+
+.corazon-icon {
+    right: 20%;
+    top: 20%;
+}
+
+.camara-icon {
+    right: 20%;
+    top: 45%;
+} 
+
+.contenedor-planta {
+    position: relative;
+    z-index: 4
 }

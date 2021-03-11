@@ -6,11 +6,12 @@
 @import url('components/contenedor-info.css');
 @import url('components/contenedor-planta.css');
 @import url('components/responsive.css');
+@import url('components/botones.css');
 
 body {
     margin: 0;
-    
     font-family: "Roboto Condensed", sans-serif;
+    position: relative;
 }
 
 div.background {
@@ -18,17 +19,19 @@ div.background {
     width: 100vw;
     background-image: radial-gradient(63.6% 63.6% at 54.03% 45.84%, rgba(235, 230, 214, 0.952) 56.77%, rgba(230, 216, 168, 0.952) 100%);
     z-index: -99;
+    overflow: hidden;
 }
 
 .bg-image {
-    position: absolute;
+    position: relative;
     width: 140%;
     top: -15%;
     left: -30%;
     z-index: -100;
 }
 
-main div {
-    height: 30vh;
-    width: 100%; 
+main {
+    position: absolute;
+    width: 100%;
+    top: 30vh;
 }
