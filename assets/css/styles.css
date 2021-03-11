@@ -5,18 +5,20 @@
 body {
     margin: 0;
     font-family: "Roboto Condensed", sans-serif;
-    background-image: url('../img/bg.jpg');
-    background-size: cover;
-    background: radial-gradient(63.6% 63.6% at 54.03% 45.84%, rgba(233, 211, 118, 0) 56.77%, rgba(245, 203, 51, 0.44) 100%);
 }
 
 div.background {
-    
+    height: 100vh;
+    background-color: #fcf5edaf;
+    z-index: -99;
 }
 
 .bg-image {
-    position: fixed;
-    width: 100%;
+    position: absolute;
+    width: 140%;
+    top: -15%;
+    left: -30%;
+    z-index: -100;
 }
 
 main div {
