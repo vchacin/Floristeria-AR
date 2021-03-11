@@ -1,6 +1,8 @@
 main .contenedor-img {
+    border: 1px solid red;
     position: relative;
-    width: 200px;
+    top: -160px;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -8,8 +10,8 @@ main .contenedor-img {
 }
 
 .contenedor-img-planta {
-    width: 100%;
-    height: 60vh;
+    border: 1px solid red;
+    width: 80%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -18,45 +20,42 @@ main .contenedor-img {
 }
 
 .contenedor-img-planta img.planta {
-    width: 80%;
-    height: 200px;
-    margin-left: auto;
-    padding-left: 10px;    
+    border: 1px solid red;
+    width: 100%;
+    margin-left: auto;    
     margin-right: auto;
     position: relative;
     z-index: 5;
 }
 
-.contenedor-img-planta div.contenedor-elipses{
+.contenedor-img-planta div.contenedor-elipses {
+    border: 1px solid red;
     position: relative;
-    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    top: -40px;
+    top: 80px;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .contenedor-elipses div.elipse {
-    height: 40px;
+    height: 80px;
     border-radius: 60%;
-    width: 70%;
+    width: 85%;
     background-color: #FDF8E5;
     position: relative;
     z-index: 2;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .contenedor-elipses div.elipse-altura {
-    height: 45px;
+    height: 85px;
     border-radius: 60%;
-    width: 70%;
+    width: 85%;
     background-color: #E8D09B;
-    position: relative;
-    top: -38px;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    /* top: -72px; */
 }
 
 .contenedor-img-nav {
@@ -67,20 +66,22 @@ main .contenedor-img {
 
 .contenedor-img-nav {
     position: absolute;
-    top: 20vh;
+    top: 50%;
 }
 
 .contenedor-img-nav nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 0 4%;
 }
 
 .swipe {
     background-color: #C1CDAA;
+    font-size: 3vh;
     color: #fff;
-    width: 15px;
-    padding: 15px;
+    width: 3vh;
+    padding: 3vh;
     height: 0;
     border-radius: 50%;
     display: flex;
