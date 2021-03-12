@@ -2,7 +2,6 @@ main .contenedor-img {
     position: relative;
     top: -100px;
     width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,31 +26,32 @@ main .contenedor-img {
     padding-left: 6px;
 }
 
-.contenedor-img-planta div.contenedor-elipses {
-    width: 100%;
+.contenedor-img-planta div.resplandor {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    z-index: 3;
+    border-radius: 100%;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 74%);
+    left: 40px;
+} 
+
+.contenedor-img-planta div.elipse {
+    border: 1px;
+    width: 70%;
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 75%;
-}
-
-.contenedor-elipses div.elipse {
+    bottom: 0;
+    left: 40px;
     height: 70px;
     border-radius: 60%;
-    width: 75%;
     background-color: #FDF8E5;
-    position: relative;
     z-index: 2;
+    box-shadow: 0px 10px 0 #E8D09B;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.contenedor-elipses div.elipse-altura {
-    height: 70px;
-    border-radius: 60%;
-    width: 75%;
-    background-color: #E8D09B;
-    position: absolute;
-    top: 10px; 
-} 
 
 .contenedor-img-nav {
     width: 100%;
