@@ -4,8 +4,8 @@
     background-color: #E3C065;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px; 
-    z-index: -1;
     position: relative;
+    z-index: -1;
     bottom: 400px;
 }
     
@@ -46,8 +46,7 @@
     font-weight: 900;
     font-size: 15vw;
     margin: 0;
-    padding: 0;
-    
+    padding: 0;  
 }
 
 hr {
@@ -87,5 +86,5 @@ hr {
 
 .contenedor-planta {
     position: relative;
-    z-index: 4
+    
 }
