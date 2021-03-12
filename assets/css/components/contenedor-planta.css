@@ -5,41 +5,35 @@
     border-radius: 100%;
     position: absolute;
     left: 0;
-} */
+}  */
 
 .contenedor-planta {
     z-index: 10;
     position: relative;
-    top: -110px;
+    top: -10vh;
     display: flex;
     justify-content: center;
 }
 
 .valoracion-planta{
-    width: 35px;
-    height: 35px;
+    width: 11vw;
+    height: 11vw;
+    font-size: 3vw;
     border-radius: 100%;
-    border: none;
-    outline: none;
+    border: none;    
     background-color: #fff;
-    color: rgb(187, 187, 187);
+    color: #808080;
     position: absolute;
-    top: -10px;
+    top: -35px;
+    left: 46%;
 }
 
-.valoracion-planta div.star{
-    width: 15px;
-    height: 15px;
-    font-size: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
-    color: #fff;
-    background-color:  rgba(227,192,101);
+div.star i.fas {
+    font-size: 4vw;
+    color: #E3C065;
     position: absolute;
-    top: -4px;
-    right: 0;
+    top: -1vw;
+    right: -1vw;
 }
 
 .info-planta {
@@ -50,10 +44,10 @@
     background: linear-gradient(0deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 80%);
     border-radius: 50px;
     width: 70%;
-    height: 45vw;
     margin-left: auto;
     margin-right: auto;
     padding: 8%;
+    
 }
 
 .subtitulo-planta {
@@ -83,12 +77,12 @@
 hr {
     width: 12%;
     border: 1px #7E9357 solid;
-    margin: 0 auto;
+    margin: 0 0 0 7%;
 }
 
 .paragrafo-planta {
     color: #385C0A;
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: 300;
     text-align: center;
 }
@@ -101,7 +95,7 @@ hr {
     background-color: rgba(255, 255, 255, 0.1);
     border: solid 0.5vw white;
     position: absolute;
-    right: 40px;
+    right: 10%;
 }
 
 .icon {
@@ -110,7 +104,7 @@ hr {
 }
 
 .corazon-icon {
-    top: 28%;
+    top: 25%;
 }
 
 .camara-icon {
@@ -123,4 +117,12 @@ hr {
 
 .contenedor-planta {
     position: relative;
+}
+
+button.icon {
+    font-size: 2.5vw;
+}
+
+button.icon i {
+    font-size: 4.5vw;
 }
