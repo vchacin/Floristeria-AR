@@ -1,37 +1,36 @@
 header {
-    position: absolute;
+    position: relative;
     width: 100%;
     z-index: 1;
     color: #527C1E;
 }
 
 header div {
-    height: 20vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
 }
 
-header h1 {
+header div h1 {
     font-family: 'Beth Ellen', cursive;
-    font-size: 5vw;
-    margin: 15px 0 0 0;
+    font-size: 6vw;
+    margin: 4vw 0 -3.5vh 0;
 }
 
-header h1 img {
-    width: 15px;
+header div h1 img {
+    width: 7vw;
     margin: 0 0 0 -2px;
 }
 
-header h2 {
-    font-size: 4vw;
+header div h2 {
+    font-size: 5vw;
     font-family: "bhavuka", sans-serif;
-    margin-top: -2px;
 }
 
-.square {
-    width: 23vw;
+header div div.square {
+    width: 20vw;
     height: 23vw;
     background-color: rgba(247, 245, 237, 0.808);
     position: absolute;
@@ -39,7 +38,7 @@ header h2 {
     z-index: -1;
 }
 
-header img {
+header div img {
     max-width: 68%;
     margin-left: 40px;
 }

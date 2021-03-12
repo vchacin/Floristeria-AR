@@ -3,35 +3,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
 @import url('components/header.css');
 @import url('components/footer.css');
-@import url('components/contenedor-info.css');
 @import url('components/contenedor-planta.css');
+@import url('components/contenedor-img.css');
 @import url('components/responsive.css');
 @import url('components/botones.css');
 
 body {
     margin: 0;
     font-family: "Roboto Condensed", sans-serif;
-    position: relative;
-}
-
-div.background {
     height: 100vh;
-    width: 100vw;
-    background-image: radial-gradient(63.6% 63.6% at 54.03% 45.84%, rgba(235, 230, 214, 0.952) 56.77%, rgba(230, 216, 168, 0.952) 100%);
-    z-index: -99;
+    background-image: radial-gradient(rgba(235, 230, 214, 0.9) 40.77%, rgba(230, 216, 168, 0.9) 100%), url(/assets/img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     overflow: hidden;
 }
 
-.bg-image {
-    position: relative;
-    width: 140%;
-    top: -15%;
-    left: -30%;
-    z-index: -100;
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
 }
 
-main {
-    position: absolute;
-    width: 100%;
-    top: 30vh;
-}
