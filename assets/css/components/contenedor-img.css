@@ -9,6 +9,7 @@ main .contenedor-img {
 }
 
 .contenedor-img-planta {
+    max-width: 400px;
     width: 80%;
     position: relative;
     display: flex;
