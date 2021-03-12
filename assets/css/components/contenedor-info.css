@@ -1,11 +1,11 @@
 .contenedor-amarillo {
-    height: 511px;
-    width: 360px;
+    width: 200vw;
+    height: 150vw;
     background-color: #E3C065;
-    border-top-left-radius: 150px;
-    border-top-right-radius: 150px; 
+    border-radius: 50% 50% 0 0;
     position: relative;
-    z-index: -1;
+    left: -48%;
+    z-index: 1;
     bottom: 400px;
 }
     
