@@ -11,7 +11,7 @@ footer {
 
 .linea-verde {
     background-color: #7E9357;
-    height: 2vh;
+    height: 4vw;
     width: 100%;
 }
 
@@ -19,11 +19,17 @@ footer {
     color: #fff;
     background-color:  #7E9357;
     font-size: 26px;
-    width: 100px;
-    height: 55px;
-    border-radius: 40px;
+    width: 27vw;
+    max-width: 150px;
+    height: 14vw;
+    max-height: 80px;
+    border-radius: 100vw;
     border: none;
     cursor: pointer;
     margin-bottom: 1vh;
     padding: 1%;
+}
+
+button.shopping-cart i {
+    font-size: 3.6vh;
 }
