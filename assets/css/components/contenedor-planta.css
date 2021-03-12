@@ -1,11 +1,12 @@
-/* .contenedor-amarillo {
-    width: 400px;
-    height: 400px;
+
+.contenedor-amarillo {
+    width: 130vw;
+    height: 500px;
     background: linear-gradient(0deg, rgba(227,192,101,1) 0%, rgba(22, 22, 22, 0.1) 90%), rgba(227,192,101,1);
     border-radius: 100%;
     position: absolute;
-    left: 0;
-}  */
+    top: 35%;
+    }  
 
 .contenedor-planta {
     z-index: 10;
