@@ -53,6 +53,20 @@ div.star i.fas {
     
 }
 
+.info-planta-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.info-planta-titulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 .subtitulo-planta {
     color: white;
     font-size: 3.5vw;
@@ -77,10 +91,11 @@ div.star i.fas {
     padding: 0;  
 }
 
+
 hr {
-    width: 12%;
+    width: 80%;
     border: 1px #7E9357 solid;
-    margin: 0 0 0 7%;
+    margin: 0 auto;
 }
 
 .paragrafo-planta {
@@ -88,7 +103,7 @@ hr {
     font-size: 4vw;
     font-weight: 300;
     text-align: center;
-}
+    }
 
 .camara-icon, .corazon-icon {
     height: 12vw;
