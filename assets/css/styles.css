@@ -37,7 +37,6 @@ main {
 
 .background-image {
     width: 150vw;
-    transform: rotate(90deg);
     position: absolute;
     z-index: -5;
 }
