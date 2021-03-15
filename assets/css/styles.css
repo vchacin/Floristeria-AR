@@ -11,20 +11,8 @@
 body {
     margin: 0;
     font-family: "Roboto Condensed", sans-serif;
-<<<<<<< HEAD
     height: auto;
-    
-    
-    }
-=======
-    height: 100vh;
-    background-image: radial-gradient(rgba(235, 230, 214, 0.9) 40.77%, rgba(233, 214, 152, 0.9) 100%), url(/assets/img/bg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /*overflow: hidden;*/
 }
->>>>>>> cc6ee6de601f33b2451756375f3700e8d5aeb15c
 
 main {
     width: 100vw;
@@ -40,7 +28,7 @@ main {
 
 .background {
     width: 100%;
-    height: 60vh;
+    height: 100vh;
     overflow: hidden;
     position: absolute;
     background: radial-gradient(rgba(235, 230, 214, 0.9) 40.77%, rgba(233, 214, 152, 0.9) 100%)
@@ -49,6 +37,7 @@ main {
 
 .background-image {
     width: 150vw;
+    transform: rotate(90deg);
     position: absolute;
     z-index: -5;
 }

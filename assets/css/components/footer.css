@@ -12,6 +12,7 @@ footer {
 .linea-verde {
     background-color: #7E9357;
     height: 4vw;
+    max-height: 20px;
     width: 100%;
 }
 
