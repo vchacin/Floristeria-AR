@@ -32,7 +32,8 @@ main {
     height: 100vh;
     overflow: hidden;
     position: absolute;
-    background: radial-gradient(rgba(235, 230, 214, 0.9) 40.77%, rgba(233, 214, 152, 0.9) 100%)
+    background: radial-gradient(rgba(235, 230, 214, 0.9) 40.77%, rgba(233, 214, 152, 0.9) 100%);
+    
     
 }
 

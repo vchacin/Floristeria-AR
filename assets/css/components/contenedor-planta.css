@@ -35,6 +35,8 @@ div.star i.fas {
     position: absolute;
     top: -1vw;
     right: -1vw;
+    box-shadow: -22px 24px 79px -29px rgba(130,130,130,1);
+
 }
 
 .info-planta {

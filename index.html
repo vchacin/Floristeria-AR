@@ -14,11 +14,11 @@
 </head>
 
 <body>
-    <div class="background">
+    <div class="background hide">
         <img class="background-image" src="assets/img/bg.jpg">
     </div>    
     <!-- header, logo, nombre y descripcion -->
-    <header>
+    <header class="hide">
         <div>
             <div class="square"></div>
             <h1>Casa de las flores<img src="assets/img/leaf.png"></h1>
@@ -30,12 +30,12 @@
         <div class="contenedor-amarillo"></div>
         <!-- contenedor de la imagen de la planta, divs, reflejo -->
         <div class="contenedor-img">
-            <div class="contenedor-img-planta">
+            <div class="contenedor-img-planta" id="contenedor-planta" >
                 <img class="planta" src="assets/img/plant1.png">
-                <div class="resplandor"></div>
-                <div class="elipse"></div>
+                <div class="resplandor hide"></div>
+                <div class="elipse hide"></div>
             </div>
-            <div class="contenedor-img-nav">
+            <div class="contenedor-img-nav hide">
                 <nav>
                     <button class="swipe swipe-left"><i class="fas fa-arrow-left"></i></button>
                     <button class="swipe swipe-right"><i class="fas fa-arrow-right"></i></button>
@@ -63,7 +63,8 @@
         <div class="linea-verde"></div>
     </footer>
         
-    
+    <script src="assets/js/switch.js"></script>
+
 </body>
 
 </html>
