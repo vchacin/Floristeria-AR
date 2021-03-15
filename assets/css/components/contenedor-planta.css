@@ -6,7 +6,12 @@
     border-radius: 100%;
     position: absolute;
     top: 35%;
+    transition: top 1s;
 }  
+
+.contenedor-amarillo:{
+
+}
 
 .contenedor-planta {
     z-index: 10;
