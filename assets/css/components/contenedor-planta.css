@@ -1,12 +1,12 @@
 
 .contenedor-amarillo {
-    width: 130vw;
-    height: 500px;
+    width: 200vw;
+    height: 200vw;
     background: linear-gradient(0deg, rgba(227,192,101,1) 0%, rgba(22, 22, 22, 0.1) 90%), rgba(227,192,101,1);
     border-radius: 100%;
     position: absolute;
     top: 35%;
-    }  
+}  
 
 .contenedor-planta {
     z-index: 10;
@@ -35,6 +35,8 @@ div.star i.fas {
     position: absolute;
     top: -1vw;
     right: -1vw;
+    box-shadow: -22px 24px 79px -29px rgba(130,130,130,1);
+
 }
 
 .info-planta {
