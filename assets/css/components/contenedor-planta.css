@@ -1,4 +1,6 @@
 
+
+
 .contenedor-amarillo {
     width: 200vw;
     height: 200vw;
@@ -144,4 +146,12 @@ button.icon {
 
 button.icon i {
     font-size: 4.5vw;
+}
+
+.foto-pequena {
+    margin-right: 4px;
+}
+
+.hidden-photo {
+    display: none;
 }

@@ -83,3 +83,17 @@ nav button.swipe {
 nav button.swipe i {
     font-size: 6.5vw;
 }
+
+.icon-volveratras {
+    background-color: #C1CDAA;
+    color: #fff;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+    top: 8%;
+    left: -25%;
+    display: none;
+    
+}
