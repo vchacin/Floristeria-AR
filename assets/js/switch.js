@@ -8,6 +8,7 @@ let plantaTitulo = document.querySelector (".titulo-planta");
 let paragrafo = document.querySelector (".paragrafo-planta");
 let camaraIcono = document.querySelector (".camara-icon");
 let corazonIcono = document.querySelector (".corazon-icon");
+let circuloBlanco = document.querySelector (".contenedor-img");
 
 
 imgPlanta.addEventListener("click", function() {
@@ -38,7 +39,8 @@ imgPlanta.addEventListener("click", function() {
     corazonIcono.style.top="-16%";
     corazonIcono.style.left="28%";
 
-    
+    circuloBlanco.style.backgroundColor="white";
+    circuloBlanco.style.borderRadius= "100%";
 
 
     setInterval(function(){ circulo.style.top="-64.5%"}, 200);
