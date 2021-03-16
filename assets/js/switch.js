@@ -51,15 +51,13 @@ imgPlanta.addEventListener("click", function() {
     tamañoPlanta.style.right="15%";
 
     volverAtrasIcono.style.display="block";
+    circulo.style.top="-65.5%";
 
     for (i=0; i < fotoPequena.length; i++){
     fotoPequena[i].classList.remove("hidden-photo");
       
     }
-
-
-
-    setInterval(function(){ circulo.style.top="-65.5%"}, 200);
+   
 
 });
 
@@ -70,7 +68,7 @@ volverAtrasIcono.addEventListener("click", function() {
         hideElements[i].style.display="";
     }
     
-    
+
     plantaSubtitulo.style.color="";
     imgPlanta.style.width="";
     
@@ -104,14 +102,9 @@ volverAtrasIcono.addEventListener("click", function() {
     tamañoPlanta.style.right="";
 
     volverAtrasIcono.style.display="";
+    circulo.style.top="35%";
 
     for (i=0; i < fotoPequena.length; i++){
         fotoPequena[i].classList.add("hidden-photo");
-          
-        }
-    
-    
-    
-        setInterval(function(){ circulo.style.top=""}, 0);
-    
+    }
 })
