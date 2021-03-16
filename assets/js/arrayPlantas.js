@@ -1,71 +1,122 @@
 let arrayPlanta = [{
-    id: 1,
-    img: "./assets/img/comida1.png",
-    precio: 52.00,
-    nombre: "Curry",
-    descripcion: "Con arroz bastami",
-    cantidad: 0,
-    alt:  "curry"
-},  
-{
-    id: 2,
-    img: "./assets/img/comida2.png",
-    precio: 23.00,
-    nombre: "Ensalada de Pollo Vegana",
-    descripcion: "Con salsa de queso",
-    cantidad: 0,
-    alt: "Ensalada de pollo"
-},
-{
-    id: 3,
-    img: "./assets/img/comida3.png",
-    precio: 21.00,
-    nombre: "Patatas Francesas",
-    descripcion: "Con carne de tocino",
-    cantidad: 0,
-    alt: "Patatas"
-},
-{
-    id: 4,
-    img: "./assets/img/comida4.png",
-    precio: 6.00,
-    nombre: "Magdalena de Oreo",
-    descripcion: "Con crema de cacao",
-    cantidad: 0,
-    alt: "Magdalena de oreo"
-},
-{
-    id: 5,
-    img: "./assets/img/comida5.png",
-    precio: 1.50,
-    nombre: "Flan de Vainilla",
-    descripcion: "Con cubierta de caramelo",
-    cantidad: 0,
-    alt: "Flan de vainilla"
-}
+        id: 1,
+        img: "./assets/img/plant1.png",
+        valoracion: 5.0,
+        subtitulo: "Plantas aromáticas",
+        titulo: "Montsera Philodendron",
+        precio: 35,
+        cantidad: 0,
+        parrafo:  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+        img1: "./assets/img/img-plant/desc1.png",
+        img2: "./assets/img/img-plant/desc2.png",
+        img3: "./assets/img/img-plant/desc3.png",
+        img4: "./assets/img/img-plant/desc4.png"
+    },  
+    {
+        id: 2,
+        img: "./assets/img/plant1.png",
+        valoracion: 3.0,
+        subtitulo: "Plantas carnivoras",
+        titulo: "Dionaea Muscipula",
+        precio: 40,
+        cantidad: 0,
+        parrafo:  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+        img1: "./assets/img/img-plant/desc1.png",
+        img2: "./assets/img/img-plant/desc2.png",
+        img3: "./assets/img/img-plant/desc3.png",
+        img4: "./assets/img/img-plant/desc4.png"
+    },
+    {
+        id: 3,
+        img: "./assets/img/plant1.png",
+        valoracion: 4.2,
+        subtitulo: "Plantas suculentas",
+        titulo: "Crassula Ovata",
+        precio: 20,
+        cantidad: 0,
+        parrafo:  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+        img1: "./assets/img/img-plant/desc1.png",
+        img2: "./assets/img/img-plant/desc2.png",
+        img3: "./assets/img/img-plant/desc3.png",
+        img4: "./assets/img/img-plant/desc4.png"
+    },
+    {
+        id: 4,
+        img: "./assets/img/plant1.png",
+        valoracion: 4.0,
+        subtitulo: "Plantas ornamentales",
+        titulo: "Lavandula Stoechas",
+        precio: 28,
+        cantidad: 0,
+        parrafo:  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+        img1: "./assets/img/img-plant/desc1.png",
+        img2: "./assets/img/img-plant/desc2.png",
+        img3: "./assets/img/img-plant/desc3.png",
+        img4: "./assets/img/img-plant/desc4.png"
+    },
+    {
+        id: 5,
+        img: "./assets/img/plant1.png",
+        valoracion: 4.8,
+        subtitulo: "Plantas aromáticas",
+        titulo: "Ocimum Basilicum",
+        precio: 20,
+        cantidad: 0,
+        parrafo:  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+        img1: "./assets/img/img-plant/desc1.png",
+        img2: "./assets/img/img-plant/desc2.png",
+        img3: "./assets/img/img-plant/desc3.png",
+        img4: "./assets/img/img-plant/desc4.png"
+    }
 ];
 
-let contendorPlanta = "";
+let contenedorPlanta = "";
 
 function imprimirPlanta () {
-let menuDiv = "";
-for (let i = 0; i < arrayMenu.length; i++) {
-    menuDiv+= `<section class="menu ${arrayMenu[i].categoriaComida}">
-                    <img src="${arrayMenu[i].imgComida}" alt="${arrayMenu[i].alt}">
-                    <div class="descripcion-menu">
-                        <h2>$ ${arrayMenu[i].precioComida.toFixed(2)}</h2>
-                        <h3>${arrayMenu[i].nombreComida}</h3>
-                        <p>${arrayMenu[i].descripcionComida}</p>
-                        <div class="contador">
-                            <button class="counter-resta" onclick="actualizarValorContador('contador-${arrayMenu[i].id}','-')">-</button>
-                            <p id="contador-${arrayMenu[i].id}" class="counter-display">0</p>
-                            <button class="counter-suma" onclick="actualizarValorContador('contador-${arrayMenu[i].id}','+')">+</button>
-                        </div>
-                    </div>
-                </section>`; 
+    let contenedorPlanta = "";
+    for (let i = 0; i < arrayPlanta.length; i++) {
+        contenedorPlanta+= ` <div class="contenedor-img">
+                            <div class="contenedor-img-planta" id="contenedor-planta${arrayPlanta[i].id}" >
+                                <img class="planta" src="${arrayPlanta[i].img}">
+                                <div class="resplandor hide"></div>
+                                <div class="elipse hide"></div>
+                            </div>
+                            <div class="contenedor-img-nav hide">
+                                <nav>
+                                    <button class="swipe swipe-left"><i class="fas fa-arrow-left"></i></button>
+                                    <button class="swipe swipe-right"><i class="fas fa-arrow-right"></i></button>
+                                </nav>
+                            
+                            </div>
+                            <button class="icon-volveratras"><i class="fas fa-chevron-left"></i>  </button>
+                        </div> 
+                        <div class="contenedor-planta">
+                            <button class="valoracion-planta">${arrayPlanta[i].valoracion.toFixed(1)}<div class="star"><i class="fas fa-star"></i></div></button>
+                            <div class="info-planta">
+                                <div class="info-planta-contenedor">
+                                    <div class="info-planta-titulo">
+                                        <h3 class="subtitulo-planta">${arrayPlanta[i].subtitulo}</h3>
+                                        <h2 class="titulo-planta">${arrayPlanta[i].titulo}</h2>
+                                    </div>
+                                    <div class="precio-planta-titulo">
+                                        <h2 class="precio-planta"><span>€</span>${arrayPlanta[i].precio}</h2>
+                                        <hr>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="paragrafo-planta">${arrayPlanta[i].parrafo}</p>
+                                    <img class="foto-pequena hidden-photo" src="${arrayPlanta[i].img1}" alt="">
+                                    <img class="foto-pequena hidden-photo" src="${arrayPlanta[i].img2}" alt="">
+                                    <img class="foto-pequena hidden-photo" src="${arrayPlanta[i].img3}" alt="">
+                                    <img class="foto-pequena hidden-photo" src="${arrayPlanta[i].img4}" alt="">
+                                </div>      
+                            </div>
+                            <button class="icon camara-icon"><i class="fas fa-camera"></i>AR</button>
+                            <button class="icon corazon-icon"><i class="fas fa-heart"></i></button>
+                        </div>`; 
 }
 
-document.querySelector(".contenedor-planta").innerHTML = menuDiv;
+document.querySelector(".product-container").innerHTML = contenedorPlanta;
 }
 
 imprimirPlanta ();
