@@ -1,4 +1,6 @@
 
+
+
 .contenedor-amarillo {
     width: 200vw;
     height: 200vw;
@@ -6,8 +8,8 @@
     border-radius: 100%;
     position: absolute;
     top: 35%;
-    transition: top 3s;
-}
+    transition: top 0.5s;
+}  
 
 .contenedor-planta {
     z-index: 10;
@@ -144,4 +146,12 @@ button.icon {
 
 button.icon i {
     font-size: 4.5vw;
+}
+
+.foto-pequena {
+    margin-right: 4px;
+}
+
+.hidden-photo {
+    display: none;
 }
