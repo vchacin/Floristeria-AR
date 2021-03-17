@@ -75,22 +75,17 @@ let contenedorPlanta = "";
 function imprimirPlanta () {
     let contenedorPlanta = "";
     for (let i = 0; i < arrayPlanta.length; i++) {
-        contenedorPlanta+= ` <div class="item">
+        if (arrayPlanta[i].id === 1) {
+            contenedorPlanta+= ` <div class="item">
+
                                 <div class="contenedor-img">
                                     <div class="contenedor-img-planta" id="contenedor-planta${arrayPlanta[i].id}" >
                                         <img class="planta" src="${arrayPlanta[i].img}">
                                         <div class="resplandor hide"></div>
                                         <div class="elipse hide"></div>
                                     </div>
-                                    <div class="contenedor-img-nav hide">
-                                        <nav>
-                                            <button class="swipe swipe-left"><i class="fas fa-arrow-left"></i></button>
-                                            <button class="swipe swipe-right"><i class="fas fa-arrow-right"></i></button>
-                                        </nav>
-                                    
-                                    </div>
-                                    <button class="icon-volveratras"><i class="fas fa-chevron-left"></i>  </button>
-                                </div> 
+                                </div>
+
                                 <div class="contenedor-planta">
                                     <button class="valoracion-planta">${arrayPlanta[i].valoracion.toFixed(1)}<div class="star"><i class="fas fa-star"></i></div></button>
                                     <div class="info-planta">
@@ -115,7 +110,20 @@ function imprimirPlanta () {
                                     <button class="icon camara-icon"><i class="fas fa-camera"></i>AR</button>
                                     <button class="icon corazon-icon"><i class="fas fa-heart"></i></button>
                                 </div>
-                            </div>`; 
+
+                            </div>`;
+        } else {
+            contenedorPlanta+= ` <div class="item">
+                                    <div class="contenedor-img">
+                                        <div class="contenedor-img-planta" id="contenedor-planta${arrayPlanta[i].id}" >
+                                            <img class="planta" src="${arrayPlanta[i].img}">
+                                            <div class="resplandor hide"></div>
+                                            <div class="elipse hide"></div>
+                                        </div>
+                                    </div>
+                                </div>`;
+        }
+         
 }
 
 document.querySelector(".product-list").innerHTML = contenedorPlanta;
