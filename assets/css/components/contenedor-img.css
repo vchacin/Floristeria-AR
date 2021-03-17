@@ -53,18 +53,15 @@ main .contenedor-img {
     margin-right: 20%;
 }
 
-.contenedor-img-nav {
+.contenedor-nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
-}
-
-.contenedor-img-nav {
     position: absolute;
-    top: 50%;
+    top: 10%;
 }
 
-.contenedor-img-nav nav {
+.contenedor-nav nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
