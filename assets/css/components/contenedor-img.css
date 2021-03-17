@@ -16,6 +16,7 @@ main .contenedor-img {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .contenedor-img-planta img.planta {
@@ -25,7 +26,10 @@ main .contenedor-img {
     position: relative;
     z-index: 5;
     padding-left: 4vw;
+    
+        
 }
+
 
 .contenedor-img-planta div.resplandor {
     width: 65%;
