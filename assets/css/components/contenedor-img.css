@@ -2,6 +2,7 @@ main .contenedor-img {
     position: relative;
     top: -100px;
     width: 100%;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,46 +52,4 @@ main .contenedor-img {
     box-shadow: 0 10px 0 #E8D09B;
     margin-left: 17%;
     margin-right: 20%;
-}
-
-.contenedor-nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 10%;
-}
-
-.contenedor-nav nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 4%;
-}
-
-nav button.swipe {
-    background-color: #C1CDAA;
-    color: #fff;
-    width: 11vw;
-    height: 11vw;
-    border-radius: 100%;
-    border: none;
-}
-
-nav button.swipe i {
-    font-size: 6.5vw;
-}
-
-.icon-volveratras {
-    background-color: #C1CDAA;
-    color: #fff;
-    width: 11vw;
-    height: 11vw;
-    border-radius: 100%;
-    border: none;
-    position: absolute;
-    top: 8%;
-    left: -25%;
-    display: none;
-    
 }

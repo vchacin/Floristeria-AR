@@ -5,6 +5,7 @@
 @import url('components/footer.css');
 @import url('components/contenedor-planta.css');
 @import url('components/contenedor-img.css');
+@import url('components/contenedor-nav.css');
 @import url('components/responsive.css');
 @import url('components/botones.css');
 
@@ -16,6 +17,7 @@ body {
 
 main {
     width: 100vw;
+    max-width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
