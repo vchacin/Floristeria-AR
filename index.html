@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
     <!-- favicon -->
     <link rel="icon" type="favicon" href="./assets/img/leaf.png" alt="">
     <!-- font-awesome -->
@@ -29,7 +30,7 @@
     <main>
         <div class="contenedor-amarillo"></div>
         <!-- contenedor de la imagen de la planta, divs, reflejo -->
-       <div class="product-container">
+       <div class="product-container js-flickity">
 
         </div>
     </main>
@@ -38,7 +39,14 @@
         <button class="shopping-cart"><i class="fas fa-shopping-cart"></i></button>
         <div class="linea-verde"></div>
     </footer>
-        
+    <script>
+        var flkty = new Flickity( '.main-gallery', {
+        // options
+        cellAlign: 'left',
+        contain: true
+        });
+    </script>
+    <script src="/path/to/flickity.pkgd.min.js"></script>
     <script src="assets/js/switch.js"></script>
     <script src="assets/js/arrayPlantas.js"></script>
 
