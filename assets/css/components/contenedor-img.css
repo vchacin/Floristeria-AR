@@ -52,4 +52,52 @@ main .contenedor-img {
     box-shadow: 0 10px 0 #E8D09B;
     margin-left: 17%;
     margin-right: 20%;
+<<<<<<< HEAD
+}
+
+.contenedor-img-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-img-nav {
+    position: absolute;
+    top: 50%;
+}
+
+.contenedor-img-nav nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4%;
+}
+
+nav button.swipe {
+    background-color: #C1CDAA;
+    color: #fff;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 100%;
+    border: none;
+}
+
+nav button.swipe i {
+    font-size: 6.5vw;
+}
+
+.icon-volveratras {
+    background-color: #7E9357;
+    color: #fff;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+    top: 8%;
+    left: -25%;
+    display: none;
+    
+=======
+>>>>>>> 4025a7fa879631ecb0b4623b12241bb6692964ed
 }
