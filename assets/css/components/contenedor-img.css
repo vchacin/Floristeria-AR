@@ -2,6 +2,7 @@ main .contenedor-img {
     position: relative;
     top: -100px;
     width: 100%;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,6 +52,7 @@ main .contenedor-img {
     box-shadow: 0 10px 0 #E8D09B;
     margin-left: 17%;
     margin-right: 20%;
+<<<<<<< HEAD
 }
 
 .contenedor-img-nav {
@@ -96,4 +98,6 @@ nav button.swipe i {
     left: -25%;
     display: none;
     
+=======
+>>>>>>> 4025a7fa879631ecb0b4623b12241bb6692964ed
 }
