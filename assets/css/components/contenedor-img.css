@@ -2,14 +2,14 @@ main .contenedor-img {
     position: relative;
     top: -100px;
     width: 100%;
-    max-width: 500px;
+    max-width: 450px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .contenedor-img-planta {
-    max-width: 500px;
     width: 80%;
     position: relative;
     display: flex;
@@ -19,13 +19,13 @@ main .contenedor-img {
     margin-right: auto;
 }
 
-.contenedor-img-planta img.planta {
+.planta {
     width: 100%;
     margin-left: auto;    
     margin-right: auto;
     position: relative;
     z-index: 5;
-    padding-left: 4vw;
+    padding-left: 5%;
 }
 
 .contenedor-img-planta div.resplandor {

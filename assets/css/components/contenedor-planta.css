@@ -16,16 +16,18 @@
     justify-content: center;
 }
 
-.valoracion-planta{
+.valoracion-planta {
     width: 11vw;
+    max-width: 60px;
     height: 11vw;
-    font-size: 3.7vw;
+    max-height: 60px;
+    font-size: 2vh;
     border-radius: 100%;
     border: none;    
     background-color: #fff;
     color: #808080;
     position: absolute;
-    top: -35px;
+    top: -20px;
     left: 46%;
 }
 
@@ -107,11 +109,13 @@ hr {
 
 .camara-icon, .corazon-icon {
     height: 12vw;
+    max-height: 70px;
     width: 12vw;
-    border-radius: 50px;
+    max-width: 70px;
+    border-radius: 100%;
     border-style: none;
     background-color: rgba(255, 255, 255, 0.1);
-    border: solid 0.5vw white;
+    border: solid 1.5px white;
     position: absolute;
     right: 10%;
 }
@@ -128,8 +132,8 @@ hr {
 .camara-icon {
     top: 5%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 } 
 

@@ -13,10 +13,11 @@ header div {
     position: relative;
 }
 
-header div h1 {
+h1 {
     font-family: 'Beth Ellen', cursive;
     font-size: 6vw;
     margin: 4vw 0 -3.5vh 0;
+    font-weight: normal;
 }
 
 header div h1 img {
@@ -29,7 +30,7 @@ header div h2 {
     font-family: "bhavuka", sans-serif;
 }
 
-header div div.square {
+div.square {
     width: 20vw;
     height: 23vw;
     background-color: rgba(247, 245, 237, 0.808);

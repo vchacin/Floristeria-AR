@@ -13,7 +13,7 @@ let tamañoPlanta = document.querySelector (".planta");
 let fotoPequena = document.getElementsByClassName ("foto-pequena");
 let volverAtrasIcono = document.querySelector (".icon-volveratras");
 
-imgPlanta.addEventListener("click", function() {
+tamañoPlanta.addEventListener("click", function() {
    
     for (i=0; i < hideElements.length; i++){
         hideElements[i].style.display="none";
@@ -57,8 +57,6 @@ imgPlanta.addEventListener("click", function() {
     fotoPequena[i].classList.remove("hidden-photo");
       
     }
-   
-
 });
 
 
