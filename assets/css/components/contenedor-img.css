@@ -2,6 +2,7 @@ main .contenedor-img {
     position: relative;
     top: -100px;
     width: 100%;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,10 +27,7 @@ main .contenedor-img {
     position: relative;
     z-index: 5;
     padding-left: 4vw;
-    
-        
 }
-
 
 .contenedor-img-planta div.resplandor {
     width: 65%;
@@ -99,5 +97,4 @@ nav button.swipe i {
     top: 8%;
     left: -25%;
     display: none;
-    
 }
