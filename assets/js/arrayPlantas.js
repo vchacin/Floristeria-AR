@@ -14,7 +14,7 @@ let arrayPlanta = [{
     },  
     {
         id: 2,
-        img: "./assets/img/plant1.png",
+        img: "./assets/img/plant2.png",
         valoracion: 3.0,
         subtitulo: "Plantas carnivoras",
         titulo: "Dionaea Muscipula",
@@ -28,7 +28,7 @@ let arrayPlanta = [{
     },
     {
         id: 3,
-        img: "./assets/img/plant1.png",
+        img: "./assets/img/plant3.png",
         valoracion: 4.2,
         subtitulo: "Plantas suculentas",
         titulo: "Crassula Ovata",
@@ -42,7 +42,7 @@ let arrayPlanta = [{
     },
     {
         id: 4,
-        img: "./assets/img/plant1.png",
+        img: "./assets/img/plant4.png",
         valoracion: 4.0,
         subtitulo: "Plantas ornamentales",
         titulo: "Lavandula Stoechas",
@@ -56,7 +56,7 @@ let arrayPlanta = [{
     },
     {
         id: 5,
-        img: "./assets/img/plant1.png",
+        img: "./assets/img/plant5.png",
         valoracion: 4.8,
         subtitulo: "Plantas aromáticas",
         titulo: "Ocimum Basilicum",

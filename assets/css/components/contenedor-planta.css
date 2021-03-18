@@ -6,7 +6,7 @@
     position: absolute;
     top: 35%;
     transition: top 0.5s;
-    margin: 0 -130px auto;  /*revisar */
+    margin-left: -50%; 
 }  
 
 .contenedor-planta {

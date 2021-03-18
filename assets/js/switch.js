@@ -1,17 +1,17 @@
-let imgPlanta = document.getElementById("contenedor-planta");
-let hideElements = document.getElementsByClassName("hide");
-let circulo = document.querySelector(".contenedor-amarillo");
-let infoContenedor = document.querySelector(".info-planta-contenedor")
-let divTitulo = document.querySelector(".info-planta-titulo")
-let plantaSubtitulo = document.querySelector(".subtitulo-planta");
-let plantaTitulo = document.querySelector (".titulo-planta");
-let paragrafo = document.querySelector (".paragrafo-planta");
-let camaraIcono = document.querySelector (".camara-icon");
-let corazonIcono = document.querySelector (".corazon-icon");
-let circuloBlanco = document.querySelector (".contenedor-img");
-let tamañoPlanta = document.querySelector (".planta");
+let imgPlanta = document.getElementById("contenedor-planta"); //MODIFY
+let hideElements = document.getElementsByClassName("hide"); 
+let circulo = document.querySelector(".contenedor-amarillo"); //MODIFY
+let infoContenedor = document.querySelector(".info-planta-contenedor") //MODIFY
+let divTitulo = document.querySelector(".info-planta-titulo") //MODIFY
+let plantaSubtitulo = document.querySelector(".subtitulo-planta"); //MODIFY
+let plantaTitulo = document.querySelector (".titulo-planta"); //MODIFY
+let paragrafo = document.querySelector (".paragrafo-planta"); //MODIFY
+let camaraIcono = document.querySelector (".camara-icon"); //MODIFY
+let corazonIcono = document.querySelector (".corazon-icon"); //MODIFY
+let circuloBlanco = document.querySelector (".contenedor-img"); //MODIFY
+let tamañoPlanta = document.querySelector (".planta"); //MODIFY
 let fotoPequena = document.getElementsByClassName ("foto-pequena");
-let volverAtrasIcono = document.querySelector (".icon-volveratras");
+let volverAtrasIcono = document.querySelector (".icon-volveratras"); //MODIFY
 
 imgPlanta.addEventListener("click", function() {
    
