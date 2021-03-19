@@ -9,14 +9,20 @@
 @import url('components/responsive.css');
 
 body {
-    margin: 0;
     font-family: "Roboto Condensed", sans-serif;
     height: auto;
+    margin: 0px auto;
+    max-width: 768px;
 }
 
 main {
     width: 100vw;
     max-width: 500px;
+    /* max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
     margin: 0;
     overflow: hidden;
     padding: 20vh 0 0;
@@ -24,7 +30,7 @@ main {
 } 
 
 .background {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
     position: absolute;
