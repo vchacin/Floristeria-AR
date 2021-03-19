@@ -79,7 +79,7 @@ function imprimirPlanta () {
             contenedorPlanta+= ` <div class="item">
 
                                 <div class="contenedor-img">
-                                    <div class="contenedor-img-planta" id="contenedor-planta${arrayPlanta[i].id}" >
+                                    <div class="contenedor-img-planta" id="contenedor-planta${arrayPlanta[i].id}">
                                         <img class="planta" src="${arrayPlanta[i].img}">
                                         <div class="resplandor hide"></div>
                                         <div class="elipse hide"></div>
@@ -115,7 +115,7 @@ function imprimirPlanta () {
         } else {
             contenedorPlanta+= ` <div class="item">
                                     <div class="contenedor-img">
-                                        <div class="contenedor-img-planta" id="contenedor-planta${arrayPlanta[i].id}" >
+                                        <div class="contenedor-img-planta">
                                             <img class="planta" src="${arrayPlanta[i].img}">
                                             <div class="resplandor hide"></div>
                                             <div class="elipse hide"></div>

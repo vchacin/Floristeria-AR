@@ -10,10 +10,12 @@ let camaraIcono = document.querySelector (".camara-icon");
 let corazonIcono = document.querySelector (".corazon-icon");
 let circuloBlanco = document.querySelector (".contenedor-img");
 let tamañoPlanta = document.querySelector (".planta");
-let fotoPequena = document.getElementsByClassName ("foto-pequena");
+let fotoPequena = document.querySelectorAll (".foto-pequena");
 let volverAtrasIcono = document.querySelector (".icon-volveratras");
 
-tamañoPlanta.addEventListener("click", function() {
+console.log(volverAtrasIcono);
+
+imgPlanta.addEventListener("click", function() {
    
     for (i=0; i < hideElements.length; i++){
         hideElements[i].style.display="none";
@@ -50,17 +52,16 @@ tamañoPlanta.addEventListener("click", function() {
     tamañoPlanta.style.width="120%";
     tamañoPlanta.style.right="15%";
 
-    volverAtrasIcono.style.display="block";
+    //volverAtrasIcono.style.display="block";
     circulo.style.top="-65.5%";
 
     for (i=0; i < fotoPequena.length; i++){
-    fotoPequena[i].classList.remove("hidden-photo");
-      
+        fotoPequena[i].classList.remove("hidden-photo");
     }
 });
 
 
-volverAtrasIcono.addEventListener("click", function() {
+circulo.addEventListener("click", function() {
    
     for (i=0; i < hideElements.length; i++){
         hideElements[i].style.display="";
@@ -99,8 +100,8 @@ volverAtrasIcono.addEventListener("click", function() {
     tamañoPlanta.style.width="";
     tamañoPlanta.style.right="";
 
-    volverAtrasIcono.style.display="";
-    circulo.style.top="35%";
+    // volverAtrasIcono.style.display="";
+    circulo.style.top="";
 
     for (i=0; i < fotoPequena.length; i++){
         fotoPequena[i].classList.add("hidden-photo");
