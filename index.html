@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- slider -->
     <link rel="stylesheet" href="assets/css/flickity.css" media="screen">
     <!-- favicon -->
     <link rel="icon" type="favicon" href="./assets/img/leaf.png" alt="">
@@ -14,10 +15,11 @@
     <title>Casa de las Flores</title>
 </head>
 
-<body>
+<body> 
+    <!-- fondo bg -->
     <div class="background hide">
         <img class="background-image" src="assets/img/bg.jpg">
-    </div>    
+    </div>  
     <!-- header, logo, nombre y descripcion -->
     <header class="hide">
         <div>
@@ -28,17 +30,19 @@
     </header>
     <!-- main -->
     <main>
+        <!-- contenedor amarillo -->
         <div class="contenedor-amarillo"></div>
-        <!-- contenedor de la imagen de la planta, divs, reflejo -->
-       <div class="product-container">
-           <div class="product-list js-flickity" data-flickity-options='{ "contain": true }'>
-                <div class="item">
+
+        <!-- contenedor de la imagen de la planta -->
+        <div class="product-container">
+            <div class="product-list js-flickity" data-flickity-options='{ "contain": true }'>
+                <div class="gallery-cell">
 
                     <div class="contenedor-img">
-                        <div class="contenedor-img-planta" id="contenedor-planta1" >
+                        <div class="contenedor-img-planta" id="contenedor-planta" >
                             <img class="planta" src="./assets/img/plant1.png">
-                            <div class="resplandor hide"></div>
-                            <div class="elipse hide"></div>
+                            <div class="resplandor"></div>
+                            <div class="elipse"></div>
                         </div>
                     </div>
 
@@ -63,18 +67,18 @@
                                 <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc4.png" alt="">
                             </div>      
                         </div>
-                        <button class="icon camara-icon"><i class="fas fa-camera"></i>AR</button>
+                        <button href="ar.html" class="icon camara-icon"><i class="fas fa-camera"></i>AR</button>
                         <button class="icon corazon-icon"><i class="fas fa-heart"></i></button>
                     </div>
 
                 </div>
-                <div class="item">
+                <div class="gallery-cell hide">
 
                     <div class="contenedor-img">
                         <div class="contenedor-img-planta" id="contenedor-planta2" >
                             <img class="planta" src="./assets/img/plant2.png">
-                            <div class="resplandor hide"></div>
-                            <div class="elipse hide"></div>
+                            <div class="resplandor"></div>
+                            <div class="elipse"></div>
                         </div>
                     </div>
 
@@ -93,10 +97,6 @@
                             </div>
                             <div>
                                 <p class="paragrafo-planta">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-                                <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc1.png" alt="">
-                                <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc2.png" alt="">
-                                <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc3.png" alt="">
-                                <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc4.png" alt="">
                             </div>      
                         </div>
                         <button class="icon camara-icon"><i class="fas fa-camera"></i>AR</button>
@@ -104,13 +104,13 @@
                     </div>
 
                 </div>
-                <div class="item">
+                <div class="gallery-cell hide">
 
                     <div class="contenedor-img">
-                        <div class="contenedor-img-planta" id="contenedor-planta2" >
+                        <div class="contenedor-img-planta" id="contenedor-planta3" >
                             <img class="planta" src="./assets/img/plant3.png">
-                            <div class="resplandor hide"></div>
-                            <div class="elipse hide"></div>
+                            <div class="resplandor ocultar"></div>
+                            <div class="elipse ocultar"></div>
                         </div>
                     </div>
 
@@ -129,10 +129,6 @@
                             </div>
                             <div>
                                 <p class="paragrafo-planta">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-                                <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc1.png" alt="">
-                                <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc2.png" alt="">
-                                <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc3.png" alt="">
-                                <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc4.png" alt="">
                             </div>      
                         </div>
                         <button class="icon camara-icon"><i class="fas fa-camera"></i>AR</button>
@@ -140,13 +136,13 @@
                     </div>
 
                 </div>
-                <div class="item">
+                <div class="gallery-cell hide">
 
                     <div class="contenedor-img">
-                        <div class="contenedor-img-planta" id="contenedor-planta2" >
+                        <div class="contenedor-img-planta" id="contenedor-planta4" >
                             <img class="planta" src="./assets/img/plant4.png">
-                            <div class="resplandor hide"></div>
-                            <div class="elipse hide"></div>
+                            <div class="resplandor ocultar"></div>
+                            <div class="elipse ocultar"></div>
                         </div>
                     </div>
 
@@ -165,10 +161,6 @@
                             </div>
                             <div>
                                 <p class="paragrafo-planta">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-                                <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc1.png" alt="">
-                                <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc2.png" alt="">
-                                <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc3.png" alt="">
-                                <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc4.png" alt="">
                             </div>      
                         </div>
                         <button class="icon camara-icon"><i class="fas fa-camera"></i>AR</button>
@@ -176,13 +168,13 @@
                     </div>
 
                 </div>
-                <div class="item">
+                <div class="gallery-cell hide">
 
                     <div class="contenedor-img">
-                        <div class="contenedor-img-planta" id="contenedor-planta2" >
+                        <div class="contenedor-img-planta" id="contenedor-planta5" >
                             <img class="planta" src="./assets/img/plant5.png">
-                            <div class="resplandor hide"></div>
-                            <div class="elipse hide"></div>
+                            <div class="resplandor ocultar"></div>
+                            <div class="elipse ocultar"></div>
                         </div>
                     </div>
 
@@ -201,10 +193,6 @@
                             </div>
                             <div>
                                 <p class="paragrafo-planta">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-                                <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc1.png" alt="">
-                                <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc2.png" alt="">
-                                <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc3.png" alt="">
-                                <img class="foto-pequena hidden-photo" src="./assets/img/img-plant/desc4.png" alt="">
                             </div>      
                         </div>
                         <button class="icon camara-icon"><i class="fas fa-camera"></i>AR</button>
@@ -212,20 +200,17 @@
                     </div>
 
                 </div>
-           </div>
+            </div>
         </div>
 
+        <!-- footer, carrito -->
+        <footer>
+            <button class="shopping-cart"><i class="fas fa-shopping-cart"></i></button>
+            <div class="linea-verde"></div>
+        </footer>
     </main>
-    <!-- footer, carrito -->
-    <footer>
-        <button class="shopping-cart"><i class="fas fa-shopping-cart"></i></button>
-        <div class="linea-verde"></div>
-    </footer>
-
     <script src="assets/js/flickity.pkgd.min.js"></script>
     <script src="assets/js/switch.js"></script>
-    <!-- <script src="assets/js/arrayPlantas.js"></script> -->
-
 </body>
 
 </html>
