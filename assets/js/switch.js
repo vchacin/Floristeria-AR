@@ -1,36 +1,17 @@
-<<<<<<< HEAD
-let imgPlanta = document.getElementById("contenedor-planta"); //MODIFY
+let imgPlanta = document.getElementById("contenedor-planta"); 
 let hideElements = document.getElementsByClassName("hide"); 
-let circulo = document.querySelector(".contenedor-amarillo"); //MODIFY
-let infoContenedor = document.querySelector(".info-planta-contenedor") //MODIFY
-let divTitulo = document.querySelector(".info-planta-titulo") //MODIFY
-let plantaSubtitulo = document.querySelector(".subtitulo-planta"); //MODIFY
-let plantaTitulo = document.querySelector (".titulo-planta"); //MODIFY
-let paragrafo = document.querySelector (".paragrafo-planta"); //MODIFY
-let camaraIcono = document.querySelector (".camara-icon"); //MODIFY
-let corazonIcono = document.querySelector (".corazon-icon"); //MODIFY
-let circuloBlanco = document.querySelector (".contenedor-img"); //MODIFY
-let tamañoPlanta = document.querySelector (".planta"); //MODIFY
+let circulo = document.querySelector(".contenedor-amarillo"); 
+let infoContenedor = document.querySelector(".info-planta-contenedor") 
+let divTitulo = document.querySelector(".info-planta-titulo") 
+let plantaSubtitulo = document.querySelector(".subtitulo-planta"); 
+let plantaTitulo = document.querySelector (".titulo-planta"); 
+let paragrafo = document.querySelector (".paragrafo-planta"); 
+let camaraIcono = document.querySelector (".camara-icon"); 
+let corazonIcono = document.querySelector (".corazon-icon"); 
+let circuloBlanco = document.querySelector (".contenedor-img"); 
+let tamañoPlanta = document.querySelector (".planta"); 
 let fotoPequena = document.getElementsByClassName ("foto-pequena");
-let volverAtrasIcono = document.querySelector (".icon-volveratras"); //MODIFY
-=======
-let imgPlanta = document.getElementById("contenedor-planta");
-let hideElements = document.getElementsByClassName("hide");
-let circulo = document.querySelector(".contenedor-amarillo");
-let infoContenedor = document.querySelector(".info-planta-contenedor")
-let divTitulo = document.querySelector(".info-planta-titulo")
-let plantaSubtitulo = document.querySelector(".subtitulo-planta");
-let plantaTitulo = document.querySelector (".titulo-planta");
-let paragrafo = document.querySelector (".paragrafo-planta");
-let camaraIcono = document.querySelector (".camara-icon");
-let corazonIcono = document.querySelector (".corazon-icon");
-let circuloBlanco = document.querySelector (".contenedor-img");
-let tamañoPlanta = document.querySelector (".planta");
-let fotoPequena = document.querySelectorAll (".foto-pequena");
-let volverAtrasIcono = document.querySelector (".icon-volveratras");
->>>>>>> 2060b2fcaf9532f57a184b81c3ac68ac3a632a66
 
-console.log(volverAtrasIcono);
 
 imgPlanta.addEventListener("click", function() {
    
@@ -42,6 +23,7 @@ imgPlanta.addEventListener("click", function() {
     
     infoContenedor.style.flexDirection="row"; 
     infoContenedor.style.justifyContent="space-between";
+    infoContenedor.style.marginTop="15%";
     
     divTitulo.style.alignItems="flex-start";
     
@@ -54,10 +36,10 @@ imgPlanta.addEventListener("click", function() {
     paragrafo.style.textAlign="left";
     paragrafo.style.paddingRight="23%";
 
-    camaraIcono.style.top="-16%";
+    camaraIcono.style.top="-10%";
     camaraIcono.style.right="25%";
 
-    corazonIcono.style.top="-16%";
+    corazonIcono.style.top="-10%";
     corazonIcono.style.left="28%";
 
     circuloBlanco.style.backgroundColor="white";
@@ -69,8 +51,7 @@ imgPlanta.addEventListener("click", function() {
     tamañoPlanta.style.width="120%";
     tamañoPlanta.style.right="15%";
 
-    //volverAtrasIcono.style.display="block";
-    circulo.style.top="-65.5%";
+    circulo.style.top="-55.5%";
 
     for (i=0; i < fotoPequena.length; i++){
         fotoPequena[i].classList.remove("hidden-photo");
@@ -117,7 +98,6 @@ circulo.addEventListener("click", function() {
     tamañoPlanta.style.width="";
     tamañoPlanta.style.right="";
 
-    // volverAtrasIcono.style.display="";
     circulo.style.top="";
 
     for (i=0; i < fotoPequena.length; i++){

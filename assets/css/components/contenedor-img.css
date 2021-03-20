@@ -29,13 +29,7 @@ main .contenedor-img {
     z-index: 5;
 }
 
-.contenedor-elementos-fondo {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-}
-
-.contenedor-elementos-fondo div.resplandor {
+.contenedor-img-planta div.resplandor {
     width: 65%;
     height: 65%;
     position: absolute;
@@ -45,30 +39,17 @@ main .contenedor-img {
     left: 20%;
 } 
 
-.contenedor-elementos-fondo div.elipse {
+.contenedor-img-planta div.elipse {
     border: 1px;
-    width: 50%;
-    height: 80px;
+    width: 70%;
+    height: 100px;
     position: absolute;
     bottom: 0;
     border-radius: 60%;
     background-color: #FDF8E5;
     z-index: -1;
     box-shadow: 0 10px 0 #E8D09B;
-    margin: 0 25%;
-}
-
-.icon-volveratras {
-    background-color: #7E9357;
-    color: #fff;
-    width: 11vw;
-    height: 11vw;
-    border-radius: 100%;
-    border: none;
-    position: absolute;
-    top: 8%;
-    left: -25%;
-    display: none;
+    margin: 0 15%;
 }
 
 .gallery-cell {
